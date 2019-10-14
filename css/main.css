@@ -1,0 +1,29 @@
+body {
+  --bg-col: #0077ff;
+  --border-col: #f57500;
+  --ball-col: #ff4a21;
+  background-color: var(--bg-col);
+}
+main {
+  display: grid;
+  justify-content: center;
+  background-color: black;
+  width: 100%;
+  min-height: 100%;
+  padding: 2vw;
+}
+canvas {
+  background-color: black;
+  border: 3px solid var(--border-col);
+  border-radius: 3px;
+
+}
+.ball {
+  background-color: var(--ball-col);
+  width: 16px;
+  height: 16px;
+  border: 1px solid white;
+  border-radius: 50%;
+  z-index: 255;
+  position: relative;
+}
