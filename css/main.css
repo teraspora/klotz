@@ -37,3 +37,17 @@ body {
 #ball-zero {
   display: none;
 }
+
+#score {
+  background-color: black;
+  color: var(--border-col);
+  width: 10vw;
+  height: 5vh;
+  border: 2px solid var(--border-col);
+  font-size: 2vw;
+  font-family: monospace;
+  text-align: right;
+  margin-top: 1vh;
+  /*position: absolute;
+  right: 0;*/
+}
